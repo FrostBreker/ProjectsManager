@@ -1,0 +1,25 @@
+{
+  "name": "test-server",
+  "version": "1.0.0",
+  "description": "TestServer bot is a bot that will managed projetc in discord with category and channel",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js --trace-warnings",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": {
+    "name": "FrostBreker",
+    "url": "https://github.com/FrostBreker"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.3",
+    "@discordjs/rest": "^1.7.1",
+    "discord-api-types": "^0.37.42",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "glob": "^10.2.2",
+    "mongoose": "^7.1.1"
+  }
+}
